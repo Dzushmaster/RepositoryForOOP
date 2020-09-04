@@ -56,14 +56,6 @@ void print(int* ArrC)
 	}
 	std::cout << '\n';
 }
-int Min(int*ArrA,int sizeA)
-{
-	int min = *ArrA;
-	for (int i = 0; i < sizeA; i++)
-		if (ArrA[i] < min)
-			min = ArrA[i];
-	return min;
-}
 void Shell(int* Arr,int sizeC)
 {
 	int* ArrC = new int[sizeC];
