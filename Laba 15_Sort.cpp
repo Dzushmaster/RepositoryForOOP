@@ -4,7 +4,7 @@ void Shaker(int*,int);
 void Shell(int*,int);
 void print(int*);
 int Min(int*,int);
-#define size 20
+#define size 10
 int main()
 {
 	setlocale(LC_CTYPE, "Rus");
